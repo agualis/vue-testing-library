@@ -56,7 +56,9 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/user-event": "^12.4.0",
     "@types/estree": "0.0.45",
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
     "@vue/compiler-sfc": "^3.0.4",
+    "apollo-cache-inmemory": "^1.6.6",
     "axios": "^0.20.0",
     "dtslint": "^4.0.6",
     "element-plus": "^1.0.1-beta.7",
@@ -78,8 +80,8 @@
     "vuex": "^4.0.0-rc.2"
   },
   "peerDependencies": {
-    "@vue/compiler-sfc": ">= 3",
-    "vue": ">= 3"
+    "vue": ">= 3",
+    "@vue/compiler-sfc": ">= 3"
   },
   "husky": {
     "hooks": {

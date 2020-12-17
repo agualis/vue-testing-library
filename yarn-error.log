@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/agualis/.nvm/versions/node/v12.16.1/bin/node /Users/agualis/.yarn/bin/yarn.js test
+  /Users/agualis/.nvm/versions/node/v12.16.1/bin/node /Users/agualis/.yarn/bin/yarn.js run --silent husky-run pre-commit
 
 PATH: 
-  /Users/agualis/.rvm/gems/ruby-2.4.1/bin:/Users/agualis/.rvm/gems/ruby-2.4.1@global/bin:/Users/agualis/.rvm/rubies/ruby-2.4.1/bin:/Users/agualis/.yarn/bin:/Users/agualis/.config/yarn/global/node_modules/.bin:/Users/agualis/.pyenv/shims:/Users/agualis/Downloads/google-cloud-sdk/bin:/Users/agualis/.nvm/versions/node/v12.16.1/bin:/Users/agualis/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/agualis/.rvm/bin:/usr/local/opt/rabbitmq/sbin
+  /usr/local/Cellar/git/2.24.0_2/libexec/git-core:/Users/agualis/.rvm/gems/ruby-2.4.1/bin:/Users/agualis/.rvm/gems/ruby-2.4.1@global/bin:/Users/agualis/.rvm/rubies/ruby-2.4.1/bin:/Users/agualis/.yarn/bin:/Users/agualis/.config/yarn/global/node_modules/.bin:/Users/agualis/.pyenv/shims:/Users/agualis/Downloads/google-cloud-sdk/bin:/Users/agualis/.nvm/versions/node/v12.16.1/bin:/Users/agualis/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/agualis/.rvm/bin:/usr/local/opt/rabbitmq/sbin
 
 Yarn version: 
   1.22.4
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/agualis/experimental/vue-testing-library/package.json: Unexpected string in JSON at position 2174
+  SyntaxError: /Users/agualis/experimental/vue-testing-library/package.json: Unexpected string in JSON at position 2318
       at JSON.parse (<anonymous>)
       at /Users/agualis/.yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -80,11 +80,15 @@ npm manifest:
       "@testing-library/jest-dom": "^5.11.5",
       "@testing-library/user-event": "^12.4.0",
       "@types/estree": "0.0.45",
+      "@vue/apollo-composable": "^4.0.0-alpha.12",
       "@vue/compiler-sfc": "^3.0.4",
+      "apollo-cache-inmemory": "^1.6.6",
       "axios": "^0.20.0",
       "dtslint": "^4.0.6",
       "element-plus": "^1.0.1-beta.7",
       "eslint-plugin-vue": "^7.1.0",
+      "graphql": "^15.4.0",
+      "graphql-tag": "^2.11.0",
       "isomorphic-unfetch": "^3.1.0",
       "jest-serializer-vue": "^2.0.2",
       "kcd-scripts": "^7.5.1",
