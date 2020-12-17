@@ -52,21 +52,15 @@
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
-    "@apollo/client": "3.2.3",
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/user-event": "^12.4.0",
     "@types/estree": "0.0.45",
-    "@vue/apollo-composable": "^4.0.0-alpha.12",
     "@vue/compiler-sfc": "^3.0.4",
-    "apollo-boost": "^0.4.9",
-    "apollo-cache-inmemory": "^1.6.6",
     "axios": "^0.20.0",
     "dtslint": "^4.0.6",
     "element-plus": "^1.0.1-beta.7",
     "eslint-plugin-vue": "^7.1.0",
-    "graphql": "^15.4.0",
-    "graphql-tag": "^2.11.0",
     "isomorphic-unfetch": "^3.1.0",
     "jest-serializer-vue": "^2.0.2",
     "kcd-scripts": "^7.5.1",
@@ -82,8 +76,8 @@
     "vuex": "^4.0.0-rc.2"
   },
   "peerDependencies": {
-    "@vue/compiler-sfc": ">= 3",
-    "vue": ">= 3"
+    "vue": ">= 3",
+    "@vue/compiler-sfc": ">= 3"
   },
   "husky": {
     "hooks": {
