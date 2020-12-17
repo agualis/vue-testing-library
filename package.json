@@ -11,8 +11,7 @@
     "test": "kcd-scripts test",
     "test:update": "npm test -- --updateSnapshot --coverage",
     "validate": "kcd-scripts validate",
-    "setup": "npm install && npm run validate -s",
-    "postinstall": "node compatibility-scripts/vue-apollo-patch.js"
+    "setup": "npm install && npm run validate -s"
   },
   "engines": {
     "node": ">10.18"
